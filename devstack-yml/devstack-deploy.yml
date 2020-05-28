@@ -14,7 +14,7 @@ spec:
         app: nodejs
     spec:
       containers:
-      - image: vmsalem/nodejs2:b3.20200528.084830
+      - image: vmsalem/nodejs2:b1.20200528.153454
         name: nodejs
         ports:
         - containerPort: 8000      
