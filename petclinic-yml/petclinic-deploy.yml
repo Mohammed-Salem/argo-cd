@@ -14,7 +14,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: vmsalem/spring-petclinic:b8.20200521.191935
+      - image: vmsalem/spring-petclinic:b1.20200623.162924
         name: petclinic
         ports:
         - containerPort: 8080        
