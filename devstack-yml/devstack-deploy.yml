@@ -14,7 +14,7 @@ spec:
         app: nodejs
     spec:
       containers:
-      - image: registry.vmsalem.local/tbs-workload/nodejs-web:b2.20200706.205319
+      - image: registry.vmsalem.local/tbs-workload/nodejs-web:b3.20200706.211234
         name: nodejs
         ports:
         - containerPort: 8000      
