@@ -7,14 +7,18 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: nodejs
+      app: aspnet
   template:
     metadata:
       labels:
-        app: nodejs
+        app: aspnet
     spec:
       containers:
-      - image: registry.vmsalem.local/tbs-workload/aspnet:b1.20200708.162626
-        name: nodejs
+      - image: vmsalem/aspnet:b2.20200726.131529
+      # - image: registry.vmsalem.local/tbs-workload/dotnet:b8.20200726.112714
+        name: aspnet
         ports:
-        - containerPort: 8080      
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080" 
