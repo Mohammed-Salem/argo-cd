@@ -14,7 +14,7 @@ spec:
         app: aspnet
     spec:
       containers:
-      - image: vmsalem/aspnet:b2.20200726.131529
+      - image: vmsalem/dotnet:b1.20200729.082049
       # - image: registry.vmsalem.local/tbs-workload/dotnet:b8.20200726.112714
         name: aspnet
         ports:

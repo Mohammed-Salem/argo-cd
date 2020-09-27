@@ -14,7 +14,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: vmsalem/spring-petclinic:b2.20200623.165139
+      - image: harbor.vmsalem.local/tbs-deploy/petclinic:latest
         name: petclinic
         ports:
         - containerPort: 8080        
