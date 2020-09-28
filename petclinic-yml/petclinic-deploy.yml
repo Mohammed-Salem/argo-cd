@@ -14,7 +14,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: harbor.vmsalem.local/tbs-deploy/petclinic:b2.20200927.200349
+      - image: harbor.vmsalem.local/tbs-workload/petclinic:b1.20200927.204138
         name: petclinic
         ports:
         - containerPort: 8080        
